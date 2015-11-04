@@ -6,7 +6,7 @@ require 'migema/version'
 Gem::Specification.new do |spec|
   spec.name          = "migema"
   spec.version       = Migema::VERSION
-  spec.authors       = ["Yeray Perez"]
+  spec.authors       = ["Yeray Perez","Adrian Gutierrez Alvarez"]
   spec.email         = ["alu0100783612@ull.edu.es"]
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
@@ -29,5 +29,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec"
+  spec.add_development_dependency 'rspec', '~>2.11'
 end
